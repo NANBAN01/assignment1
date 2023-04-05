@@ -1,0 +1,105 @@
+1.when we execute the following code placement of errors takes place.because,the function is not closed within double quotes and i is not declared,hence the given code gives errors.
+if hte errors are corrected then the output will be 400.
+
+2.Identify the error in the following program_
+Include<iostrearn..h>
+void main()
+ {
+Int num[] ={1,2,3,4,5,6,7};
+nurn [1]	=[1] num ?cout<<”success” : cout<<"Errior";
+
+ans:
+#include<iostream.h>
+void main()
+{
+int num[10]=(1,2,3,4,5,6,7);
+num[1]=[1] num? cout<<"success";cout<<"errors";
+}
+
+3.identify the error in the following program. 
+#include<iostream.h>
+void main() I
+ switch(1)
+{
+defaul tt
+case 4: 
+case 5:
+break.; 
+case 1
+continue;
+case 2; case 3; break;
+i--;
+}
+}
+
+ans:
+#include<iostream.h>
+void main() I
+ switch(1)
+{
+case1:
+cout<<"hi";
+break;
+case2:
+cout<<"as"; 
+break;
+default:
+cout<<"welcome";
+}
+}
+
+
+4.Identify the error in the following program.
+#include<iostream.h>
+#define pi 3.14
+ int squareArea(int &);
+int circlearea(int &) ; 
+voi d main()
+{
+int a=10;
+cout<< squareArea(A);
+cout<< circleArea(a) ;
+cout<<a<< endl ;
+}
+int squareArea(int &a)
+{
+return a *== a;
+}
+int circleArea(int &r)
+{
+return r = pi*r*r;
+)
+
+ans:
+#include<iostream.h>
+void main()
+#define pi 3.14
+ int squareArea(int &);
+int circlearea(int &) ; 
+{
+int a=10;
+cout<< squareArea(A);
+cout<< circleArea(a) ;
+cout<<a<< endl ;
+}
+int squareArea(int &a)
+{
+return a *== a;
+}
+int circleArea(int &r)
+{
+return r = pi*r*r;
+}
+
+
+5..  Find errors, if any, in the following c++ statements.
+(a) long x;
+(b) int *cp = vp;	
+(c)	char  code="three";	 
+(d)	char *p="new";	
+(e)	char const *p="total"
+(g)	coast int  array_size;
+(h)         int & number = 100;
+(i) float p=23.45;
+(j) int else(234);
+(k) char a="welcome";
